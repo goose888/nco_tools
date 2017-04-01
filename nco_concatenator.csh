@@ -5,7 +5,7 @@
 
 ncks --mk_rec_dmn year ISAM_S3_1988_landCoverFrac.nc 1988.nc
 ncks --mk_rec_dmn year ISAM_S3_1989_landCoverFrac.nc 1989.nc
-ncks --mk_rec_dmn year ISAM_S3_1990_landCoverFrac.nc 1900.nc
+ncks --mk_rec_dmn year ISAM_S3_1990_landCoverFrac.nc 1990.nc
 ncks --mk_rec_dmn year ISAM_S3_1991_landCoverFrac.nc 1991.nc
 ncks --mk_rec_dmn year ISAM_S3_1992_landCoverFrac.nc 1992.nc
 ncks --mk_rec_dmn year ISAM_S3_1993_landCoverFrac.nc 1993.nc
