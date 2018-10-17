@@ -38,7 +38,8 @@ for i in ${flist}; do
   ${NCO_PATH}/ncatted -h -O -a source,global,c,c,"Extracted from ISAM SG0 output Global_dveg_SG0.ISAM.nc for Trendy_v7/GCP2018" ${i}
   ${NCO_PATH}/ncatted -h -O -a contact,global,o,c,"Atul Jain, jain1@illinois.edu; Shijie Shu, sshu3@illinois.edu" ${i}
   ${NCO_PATH}/ncatted -h -O -a Conventions,global,c,c,"CF-1.0" ${i}
-  ${NCO_PATH}/ncatted -h -O -a version,,d,, ${i}
-  ${NCO_PATH}/ncatted -h -O -a NCO,,d,, ${i}
-  ${NCO_PATH}/ncatted -h -O -a history_of_appended_files,,d,, ${i}
+  ${NCO_PATH}/ncatted -h -O -a version,global,d,, ${i}
+  ${NCO_PATH}/ncatted -h -O -a NCO,global,d,, ${i}
+  ${NCO_PATH}/ncatted -h -O -a history_of_appended_files,global,d,, ${i}
+  ${NCO_PATH}/ncatted -h -O -a history,global,d,, ${i}
 done
