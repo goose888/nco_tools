@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ncap2 -s 'YEAR=array(1850,1,$time)' landuse.timeseries_0.9x1.25_hist_simyr1850-2005_c181008.nc new.nc
+
 ncks -A rainfall_1850.nc snowfall_1850.nc
 ncks -A rainfall_1851.nc snowfall_1851.nc
 ncks -A rainfall_1852.nc snowfall_1852.nc
